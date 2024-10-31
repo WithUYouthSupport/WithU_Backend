@@ -21,6 +21,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: 🐘 gradlew 실행 권한 부여
+        run: chmod +x ./gradlew
 
         ## create application-database.yml
       - name: make application-database.yml
